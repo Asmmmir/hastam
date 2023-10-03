@@ -1,0 +1,47 @@
+.navbar { 
+background-color: black;
+
+
+ &__logo {
+    h1{
+color: #6D95FC;
+font-size: 50px;
+font-weight: 600;
+letter-spacing: -1.25px;
+text-transform: uppercase;
+    }
+    p {
+        color: #ffff;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2.66px;
+    }
+ }
+
+ &__container {
+    max-width: 1920px;
+}
+}
+
+.navigaton__list {
+    li {
+color: #FFF;
+text-align: center;
+font-weight: 500;
+
+&:hover{
+    color: #6D95FC;
+    cursor: pointer;
+    transition: all 1000ms;
+}
+
+margin-right: 43px;
+
+&:nth-last-child(1){
+    margin-right: 0px;
+}
+    }
+}
