@@ -1,9 +1,9 @@
-import Navbar from "./components/Header/Navbar";
+import Header from "./components/Main/Header";
 import Main from "./components/Main/Main";
 
 function App() {
   return <div>
-    <Navbar />
+    <Header />
     <Main />
   </div>;
 }

@@ -1,10 +1,9 @@
-.about {
+.header {
     min-height: 787px;
     background-color: #000;
     color: #FFF;
  
     &__text {
-       width: 35%;
        h4 {
           color: #6D95FC;
           font-family: Poppins;
@@ -17,10 +16,11 @@
        }
  
        h1 {
-
-          font-size: 48px;
+          width: 60%;
+          font-size: 76px;
           font-weight: 700;
           letter-spacing: 1.2px;
+          text-transform: uppercase;
           margin-bottom: 43px;
  
           span {
@@ -29,7 +29,7 @@
        }
  
        p {
-
+          width: 45%;
           color: #FFF;        
           font-size: 21px;
           font-weight: 300;
@@ -46,22 +46,24 @@
           font-weight: 400;
           letter-spacing: 2.465px;
           text-transform: uppercase;
-
+ 
+          
           &:hover {
-            background-color: #6D95FC;
-            color: #000;
-          }
-
-          transition: all 1000ms;
+             background-color: #6D95FC;
+             color: #000;
+           }
+ 
+           transition: all 1000ms;
        }
     }
  }
- .about__container {
+ .header__container {
     max-width: 1920px;
     min-height: 892px;
-    background-image: url('../../public/img/about-img.png');
+    background-image: url('../../../public/img/header-img.png');
     background-repeat: no-repeat;
     background-size: contain;
+    background-position:right;
  }
  
  .line::after {

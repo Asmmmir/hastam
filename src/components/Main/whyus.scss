@@ -1,0 +1,50 @@
+.whyus {
+    background-color: #000;
+    color: #fff;
+    
+&__container {
+    min-height: 869px;
+    max-width: 1920px;
+    background: linear-gradient(360deg, #6D95FC -127.55%, rgba(0, 0, 0, 0.35) 77.97%);
+}
+
+    h5 {
+        font-size: 21px;
+        letter-spacing: 1.785px;
+        text-transform: uppercase;
+        margin-bottom: 34px;
+    }
+
+    h1 {
+        
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 109.5%;
+        letter-spacing: 2.2px;
+        text-transform: uppercase;
+        margin-bottom: 45px;
+
+        span {
+            color: #6D95FC;
+        }
+    }
+
+    button {
+        border-radius: 2px;
+        border: 3px solid #6D95FC;
+        font-family: Poppins;
+        font-size: 17px;
+        letter-spacing: 2.465px;
+        text-transform: uppercase;
+        padding: 10px 25px;
+
+
+        &:hover {
+            background-color: #6D95FC;
+            color: #000;
+          }
+
+          transition: all 1000ms;
+    }
+
+}
