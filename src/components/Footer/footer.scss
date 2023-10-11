@@ -1,0 +1,63 @@
+.footer {
+    color:#fff;
+    background-color: #000;
+    &__container {
+        min-height: 869px;
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            text-transform: uppercase;
+
+            span {
+                color: #6D95FC;
+            }
+        }
+    }
+
+
+
+    form {
+        border-radius: 34px;
+        background: linear-gradient(180deg, #12192B 0.03%, rgba(18, 25, 43, 0.00) 109.04%);
+            padding: 4rem;
+
+            @media (max-width:500px) {
+                padding: 0.5rem;
+                }
+            label{
+                margin: 5px 0;
+            }
+        input {
+            border: 1px solid rgb(255, 255, 255);
+            height: 50px;
+
+    
+            
+        }
+        textarea{
+            border: 1px solid #fff;
+            resize: none;
+        }
+        button {
+            border-radius: 2px;
+            border: 3px solid #6D95FC;
+            font-family: Poppins;
+            font-size: 17px;
+            letter-spacing: 2.465px;
+            text-transform: uppercase;
+            padding: 10px 25px;
+    
+    
+            &:hover {
+                background-color: #6D95FC;
+                color: #000;
+              }
+    
+              transition: all 1000ms;
+        }
+
+    }
+
+
+
+}

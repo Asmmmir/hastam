@@ -11,12 +11,12 @@ const Navbar = () => {
         </div>
         <div className="navigation">
           <ul className="navigaton__list d-flex flex-wrap">
-            <li className="p-2">Home</li>
-            <li className="p-2">About us</li>
-            <li className="p-2">Services</li>
-            <li className="p-2">Portfolio</li>
-            <li className="p-2">Pages</li>
-            <li className="p-2">Contacts</li>
+            <li className="p-3">Home</li>
+            <li className="p-3">About us</li>
+            <li className="p-3">Services</li>
+            <li className="p-3">Portfolio</li>
+            <li className="p-3">Pages</li>
+            <li className="p-3">Contacts</li>
           </ul>
         </div>
       </div>
