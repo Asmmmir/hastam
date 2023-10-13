@@ -7,15 +7,15 @@ const OurProjects = () => {
   const images = [
     {
       id: 1,
-      image: "hastam/img/pics/pic1.jpg",
+      image: "/hastam/img/pics/pic1.jpg",
     },
     {
       id: 2,
-      image: "hastam/img/pics/pic2.jpg",
+      image: "/hastam/img/pics/pic2.jpg",
     },
     {
       id: 3,
-      image: "hastam/img/pics/pic3.jpg",
+      image: "/hastam/img/pics/pic3.jpg",
     }
   ];
 
