@@ -7,28 +7,16 @@ const OurProjects = () => {
   const images = [
     {
       id: 1,
-      image: "../../../img/pics/pic1.jpg",
+      image: "hastam/img/pics/pic1.jpg",
     },
     {
       id: 2,
-      image: "../../../img/pics/pic2.jpg",
+      image: "hastam/img/pics/pic2.jpg",
     },
     {
       id: 3,
-      image: "../../../img/pics/pic3.jpg",
-    },
-    // {
-    //   id: 4,
-    //   image: "../../../img/pics/pic4.jpg",
-    // },
-    // {
-    //   id: 5,
-    //   image: "../../../img/pics/pic5.jpg",
-    // },
-    // {
-    //   id: 6,
-    //   image: "../../../img/pics/pic6.jpg",
-    // },
+      image: "hastam/img/pics/pic3.jpg",
+    }
   ];
 
   const [image, setImage] = useState(images);

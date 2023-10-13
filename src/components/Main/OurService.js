@@ -23,22 +23,22 @@ const OurService = () => {
            d-flex align-items-center">
             <div className="row row-cols-3 justify-content-center">
               <div className="col service__feautures__item">
-                <img src="../../../img/icons/video-marketing.svg" alt="" />
+                <img src="hastam/img/icons/video-marketing.svg" alt="" />
                 <h5>Video marketing</h5>
                 <p>Lorem ipsum Neque do porro quisquam est qui do quam </p>
               </div>
               <div className="col service__feautures__item">
-                <img src="../../../img/icons/graphic-design.svg" alt="" />
+                <img src="hastam/img/icons/graphic-design.svg" alt="" />
                 <h5>Graphic design</h5>
                 <p>Lorem ipsum Neque do porro quisquam est qui do quam </p>
               </div>
               <div className="col service__feautures__item">
-                <img src="../../../img/icons/ux.svg" alt="" />
+                <img src="hastam/img/icons/ux.svg" alt="" />
                 <h5>ui/ux Design</h5>
                 <p>Lorem ipsum Neque do porro quisquam est qui do quam </p>
               </div>
               <div className="col service__feautures__item">
-                <img src="../../../img/icons/web-design.svg" alt="" />
+                <img src="hastam/img/icons/web-design.svg" alt="" />
                 <h5>WEBSITE DESIGN</h5>
                 <p>Lorem ipsum Neque do porro quisquam est qui do quam </p>
               </div>
